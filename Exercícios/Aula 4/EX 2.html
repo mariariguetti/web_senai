@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 2</title>
+</head>
+<body>
+<h1>Formulário</h1>
+
+<form>
+    <label for="input_nome_produto">Nome do Produto</label>
+    <input id="input_nome_produto" type="text" placeholder="Nome" required> <br>
+    <br>
+
+    <label for="text_descricao">Descrição</label><br>
+    <textarea id="text_descricao" cols="20" rows="10"></textarea><br>
+    <br>
+
+    <label for="menu_categoria">Categorias</label>
+    <select id="menu_categoria">
+        <optgroup label="Categorias">
+            <option>Eletrônicos</option>
+            <option>Livros</option>
+            <option>Brinquedos</option>
+            <option>Esportes</option>
+            <option>Calçados</option>
+        </optgroup>
+    </select><br>
+    <br>
+
+  <label for="menu_paises">Países</label>
+    <select id="menu_paises">
+        <optgroup label="Países">
+            <option>Brasil</option>
+            <option>Estados Unidos</option>
+            <option>Argentina</option>
+            <option>México</option>
+            <option>China</option>
+        </optgroup>
+    </select><br>
+    <br>
+
+  <label for="input_preco">Preço</label>
+    <input id="input_preco" type="number" placeholder="R$" required> <br>
+    <br>
+
+  <label for="input_data">Data de Fabricação</label>
+    <input id="input_data" type="date" required> <br>
+    <br>
+
+  <button type="submit">Enviar</button>
+  <button type="reset">Redefinir</button>
+</body>
+</html>
