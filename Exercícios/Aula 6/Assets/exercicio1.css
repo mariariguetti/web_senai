@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.frase-black {
+    color: white;
+    background-color: red;
+    display: inline;
+    font-size: 36px;
+    font-family: arial;
+}
+
+body {
+    background: black;
+}
