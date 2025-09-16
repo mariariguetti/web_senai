@@ -1,0 +1,31 @@
+div.header {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+}
+
+div.header1 {
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+}
+
+div.header2 {
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+    float: right;
+    display: inline-block;
+}
+
+div.header3 {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    background-color: lightblue;
+
+}
