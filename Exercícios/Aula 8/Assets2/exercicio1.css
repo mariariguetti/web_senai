@@ -1,0 +1,24 @@
+.red {
+    display: flex;
+    background-color: red;
+    height: 70px;
+    margin: 60px;
+}
+
+.blue {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 200px;
+    margin: 60px;
+}
+
+.blue1 {
+    display: flex;
+}
+
+.blue1 div {
+    flex: auto;
+    height: 250px;
+    margin: 60px;
+    background-color: lightblue;
+}
